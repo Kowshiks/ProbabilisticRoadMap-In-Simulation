@@ -43,8 +43,7 @@ Now starting from the starting point, I would check all the sample coordinates i
 find whether they intersect with any of the obstacle. I have used a simple finding intersection
 between line segments to find all the nodes. Now I keep track of all these possible edges. My
 dictionary structure is such a way that the keys will be all the possible nodes from the starting
-point and the values will be all the nodes that can be reached from that particular node. I feed I
-this dictionary into my path planning algorithm.
+point and the values will be all the nodes that can be reached from that particular node. I feed this dictionary into my path planning algorithm.
 
 ## Path planning Algorithm
 
